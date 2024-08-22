@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Do Hyeon', sans-serif;
+  color: #35465d;
+}
+
+.header {
+  padding: 10px 0;
+  background-color: white;
+}
+
+h1,
+h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.container {
+  background-color: #f6f7fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 350px;
+  max-width: 650px;
+  min-height: 400px;
+  padding: 20px 0;
+  margin: 0 auto;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+}
+
+.area {
+  background-color: white;
+  width: 60%;
+  min-width: 300px;
+  max-width: 600px;
+  border: 2px dashed steelblue;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+#upload-area {
+  cursor: pointer;
+}
+
+#retry-area {
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#upload-area:hover,
+#retry-area:hover {
+  background-color: aliceblue;
+}
+
+.guide-image {
+  font-size: 120px;
+}
+
+#upload-image {
+  width: 55%;
+  max-width: 540px;
+}
+
+/* DISQUS 댓글 영역 스타일 적용 */
+#disqus_thread {
+  background-color: #f6f7fa; /* 배경 색상 적용 */
+  max-width: 650px; /* 최대 넓이 지정 */
+  box-sizing: border-box; /* 사이즈 기준 지정 */
+  padding: 25px; /* 내부 여백 지정 */
+  margin: 0 auto; /* 내부 disqus_thread 영역의 container div 태그 내 가로 가운데 정렬 적용 */
+  margin-top: 15px; /* 상단 외부 여백 지정 */
+  border: 1px solid lightgrey; /* 실선 테두리 적용 */
+  border-radius: 10px; /* 원형 테두리 적용 */
+}
